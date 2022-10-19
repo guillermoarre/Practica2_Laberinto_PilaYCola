@@ -1,0 +1,11 @@
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\bin\Debug\Practica2_Laberinto_PilaYCola.exe.config
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\bin\Debug\Practica2_Laberinto_PilaYCola.exe
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\bin\Debug\Practica2_Laberinto_PilaYCola.pdb
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.csproj.AssemblyReference.cache
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.csproj.SuggestedBindingRedirects.cache
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.Properties.Resources.resources
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.csproj.GenerateResource.cache
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.csproj.CoreCompileInputs.cache
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.exe
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.pdb
+C:\Users\Fawmu\Desktop\9no Semestre\Agentes_IE\Practica2_Laberinto_PilaYCola\obj\Debug\Practica2_Laberinto_PilaYCola.Form1.resources
