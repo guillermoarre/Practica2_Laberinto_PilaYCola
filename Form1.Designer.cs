@@ -36,12 +36,19 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.integrantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.arredondoVazquezGuillermoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rodriguezAguilarJesusManuelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pb)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pb
             // 
-            this.pb.Location = new System.Drawing.Point(12, 12);
+            this.pb.Location = new System.Drawing.Point(12, 46);
             this.pb.Name = "pb";
             this.pb.Size = new System.Drawing.Size(551, 542);
             this.pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -114,6 +121,53 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "PILA";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.archivoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(934, 24);
+            this.menuStrip1.TabIndex = 8;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // archivoToolStripMenuItem
+            // 
+            this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.integrantesToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Text = "Archivo";
+            // 
+            // integrantesToolStripMenuItem
+            // 
+            this.integrantesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.arredondoVazquezGuillermoToolStripMenuItem,
+            this.rodriguezAguilarJesusManuelToolStripMenuItem});
+            this.integrantesToolStripMenuItem.Name = "integrantesToolStripMenuItem";
+            this.integrantesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.integrantesToolStripMenuItem.Text = "Integrantes";
+            // 
+            // arredondoVazquezGuillermoToolStripMenuItem
+            // 
+            this.arredondoVazquezGuillermoToolStripMenuItem.Name = "arredondoVazquezGuillermoToolStripMenuItem";
+            this.arredondoVazquezGuillermoToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.arredondoVazquezGuillermoToolStripMenuItem.Text = "Arredondo Vazquez Guillermo";
+            // 
+            // rodriguezAguilarJesusManuelToolStripMenuItem
+            // 
+            this.rodriguezAguilarJesusManuelToolStripMenuItem.Name = "rodriguezAguilarJesusManuelToolStripMenuItem";
+            this.rodriguezAguilarJesusManuelToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
+            this.rodriguezAguilarJesusManuelToolStripMenuItem.Text = "Rodriguez Aguilar Jesus Manuel";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,9 +181,13 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pb);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Práctica 2, LABERINTO";
             ((System.ComponentModel.ISupportInitialize)(this.pb)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,6 +203,12 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem integrantesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem arredondoVazquezGuillermoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rodriguezAguilarJesusManuelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
     }
 }
 

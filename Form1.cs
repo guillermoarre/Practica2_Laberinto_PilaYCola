@@ -101,6 +101,11 @@ namespace Practica2_Laberinto_PilaYCola
             Close();
         }
 
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             Queue Cola = new Queue();
